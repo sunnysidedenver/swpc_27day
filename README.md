@@ -7,6 +7,6 @@ The Space Weather Prediction Center produces 27-day geomagnetic forecasts found 
 
 This project is ongoing and the respository python notebook will be updated periodically with major milestones.
 
-Example 27 Day Forecast found in a PDF file
+*Example 27 Day Forecast found in a PDF file table*
 
 ![EXAMPLE 27 DAY FORECAST in PDF FORMAT](https://github.com/sunnysidedenver/swpc_27day/blob/main/Example%20Forecast.PNG)
