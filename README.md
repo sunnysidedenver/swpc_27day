@@ -4,9 +4,6 @@ The Space Weather Prediction Center produces 27-day geomagnetic (Kp and Ap) and 
 
 Seperate notebooks can be found for Kp and F10.7 verification, starting with 2020. Additional efforts will continue to aggreagate and analyze forecasts from 2021-present and will also evaluate all of solar cycle 24. At this time there is no committment to analyze Ap data given the larger range of uncertainty inherent in this parameter. For example, Kp ranges from 0-9, whereas Ap can reach into the hundreds during periods of elevated geomagnetic activity. Probability dictates Kp forecasts offer more skill than Ap.
 
-Update:
-
-8/21/23: Kp and F10.7 Forecast Verification Now Available for 2020
 
 *Example 27 Day Forecast found in a PDF file table*
 
