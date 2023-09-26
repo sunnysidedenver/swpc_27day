@@ -11,7 +11,7 @@ The Space Weather Prediction Center produces 27-day geomagnetic (Kp and Ap) and 
 This study will evaluate F10.7 cm forecasts from 2020-2023 in order to determine how good or bad the forecasts are.
 
 ## Hypothesis
-Null: The forecasts are good.
+Null: The forecasts are good. </br>
 Alternate: The forecasts are bad.
 
 ## Data
