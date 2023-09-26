@@ -8,7 +8,7 @@ The Space Weather Prediction Center produces 27-day geomagnetic (Kp and Ap) and 
 ![EXAMPLE 27 DAY FORECAST in PDF FORMAT](https://github.com/sunnysidedenver/swpc_27day/blob/main/Example%20Forecast.PNG)
 
 ## Purpose
-This study will evaluate F10.7 cm forecasts from 2020-2023 in order to determine how good or bad the forecasts are.
+This study will evaluate F10.7 cm forecasts from 2020-2023 in order to determine how good or bad the forecasts are. This summer it was discovered that the media (and possibly core customers) had been using this forecast in lieu of short term forecasts to get more lead time while not understanding the forecast constraints of a 27 day forecast and space weather forecasting in general. 
 
 ## Hypothesis
 Null: The forecasts are good. </br>
@@ -21,7 +21,7 @@ In order to assess forecast skill, the forecasts have to be extracted from these
 These forecasts were compared against observed values in order to obtain a "skill score" and other performance metrics. Some analysis techniques required the subjective transformation of quanitatitve data into qualitative (hit or miss). For purposes of this study, if a forecast was within 5 sfu it was considered a hit.
 
 ## Conclusions
-The forecasts suffer from a high degree of variability, with low accuracy and high false alarm. Forecast error generally increases from 2020-2023 as solar activity increased. R-squared, a statistical representation of variance, allows for rejection of Ho and acceptance of Ha: The forecasts are bad.
+The forecasts suffer from a high degree of variability, with low accuracy and high false alarm. Forecast error generally increases from 2020-2023 as solar activity increased. This forecast is almost entirely based on recurrence, which becomes less reliable with more CMEs. R-squared, a statistical representation of variance, allows for rejection of Ho and acceptance of Ha: The forecasts are bad.
 
 However, other metrics like mean absolute error, suggest the forecasts are at least fair overall.
 
