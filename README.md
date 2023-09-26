@@ -10,9 +10,23 @@ The Space Weather Prediction Center produces 27-day geomagnetic (Kp and Ap) and 
 ## Purpose
 This study will evaluate F10.7 cm forecasts from 2020-2023 in order to determine how good or bad the forecasts are.
 
+## Hypothesis
+Null: The forecasts are good.
+Alternate: The forecasts are bad.
+
 ## Data
-In order to assess forecast skill, the forecasts have to be extracted from these PDF files into a readable format. This program will extract the forecasts from the PDF files (found on pages 4, 5, 6 or 7) then convert them into text files. The text files will then be read into Pandas dataframes for additional analysis. Once cleaned, these forecasts can be compared against observed values in order to obtain a "skill score". Observed [F10.7 flux data](ftp://ftp.seismo.nrcan.gc.ca/spaceweather/solar_flux/daily_flux_values/fluxtable.txt) were collected from the Government of Canada.  
+In order to assess forecast skill, the forecasts have to be extracted from these PDF files into a readable format. This program will extract the forecasts from the PDF files (found on pages 4, 5, 6 or 7) then convert them into text files. The text files will then be read into Pandas dataframes for additional analysis. Observed [F10.7 flux data](ftp://ftp.seismo.nrcan.gc.ca/spaceweather/solar_flux/daily_flux_values/fluxtable.txt) were collected from the Government of Canada.  
 
 ## Analysis
+These forecasts were compared against observed values in order to obtain a "skill score" and other performance metrics. Some analysis techniques required the subjective transformation of quanitatitve data into qualitative (hit or miss). For purposes of this study, if a forecast was within 5 sfu it was considered a hit.
 
 ## Conclusions
+The forecasts suffer from a high degree of variability, with low accuracy and high false alarm. Forecast error generally increases from 2020-2023 as solar activity increased. R-squared, a statistical representation of variance, allows for rejection of Ho and acceptance of Ha: The forecasts are bad.
+
+However, other metrics like mean absolute error, suggest the forecasts are at least fair overall.
+
+## Future Efforts
+ROC curves, which look at the relationship between hits and misses, should be considered as well as other hypothesis testing measures other than R-squared, like p-values.
+
+Heidke skill score may also be useful. This analysis compares the forecast against the long term average, which the daily forecasts outpeform, on average. A more accurate model could be trained based on solar input parameters. The [ADAPT model](https://gong.nso.edu/adapt/sift/adapt_f10_forecast.txt) could also be evaluated, and if determiend to be more consistently accurate, it could inform the Heidke skill score, or even replace the manual forecast process.
+
