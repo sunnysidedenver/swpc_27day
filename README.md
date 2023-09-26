@@ -28,6 +28,8 @@ However, other metrics like mean absolute error, suggest the forecasts are at le
 ## Future Efforts
 ROC curves, which look at the relationship between hits and misses, should be considered as well as other hypothesis testing measures other than R-squared, like p-values.
 
+Other tolerances for transformation of quantitative data into qualitative should be considered as well and may not be the same during all parts of the solar cycle.
+
 Heidke skill score may also be useful. This analysis compares the forecast against the long term average, which the daily forecasts outpeform, on average. A more accurate model could be trained based on solar input parameters. The [ADAPT model](https://gong.nso.edu/adapt/sift/adapt_f10_forecast.txt) could also be evaluated, and if determiend to be more consistently accurate, it could inform the Heidke skill score, or even replace the manual forecast process all together.
 
 Last updated: Sep 2023
