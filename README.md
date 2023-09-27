@@ -10,6 +10,8 @@ The Space Weather Prediction Center produces 27-day geomagnetic (Kp and Ap) and 
 ## Purpose
 This study will evaluate F10.7 cm forecasts from 2020-2023 in order to determine how good or bad the forecasts are. The period of study was chosen carefully to minimize the size of the dataset and yet still be representative of solar minimum (2020) and maximum (2023) conditions and the years in between. 
 
+![2020-2023 Study Period](https://github.com/sunnysidedenver/swpc_27day/blob/main/study%20period.png)
+
 ## Hypothesis
 Null: The forecasts are good. </br>
 Alternate: The forecasts are bad.
