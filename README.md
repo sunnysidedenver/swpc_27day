@@ -1,4 +1,4 @@
-# <center>27 Day F10.7 cm "Solar Flux" Forecast Performance Evaluation (2020-23)</center><br>
+# <center>27 Day F10.7 cm "Solar Flux" Forecast Performance Evaluation (2020-2023)</center><br>
 
 ## Background
 The Space Weather Prediction Center produces 27-day geomagnetic (Kp and Ap) and radio (F10.7 cm) forecasts found in [Weekly Highlights and 27-day Forecast](https://www.swpc.noaa.gov/products/weekly-highlights-and-27-day-forecast). These forecasts are perishable and are not archived in any database. They can only be found in these PDF documents, which are [archived](ftp.swpc.noaa.gov/pub/warehouse/) by year. 
@@ -6,8 +6,8 @@ The Space Weather Prediction Center produces 27-day geomagnetic (Kp and Ap) and 
 *Example 27 Day F10.7 cm Forecast Table found in a "Weekly" PDF file*
 ![EXAMPLE 27 DAY FORECAST in PDF FORMAT](https://github.com/sunnysidedenver/swpc_27day/blob/main/Example%20Forecast.PNG)
 ## Purpose
-This study will evaluate F10.7 cm forecasts from 2020-2023 in order to determine how good or bad the forecasts are. The period of study was chosen carefully to minimize the size of the dataset and yet still be representative of solar minimum (2020) and maximum (2023) conditions and the years in between. 
-![2020-2023 Study Period](https://github.com/sunnysidedenver/swpc_27day/blob/main/study%20period.png)
+This study will evaluate F10.7 cm forecasts from 2020-2023 in order to determine how good or bad the forecasts are. 
+
 ## Hypothesis
 Null: The forecasts are good. </br>
 Alternate: The forecasts are bad.
@@ -17,6 +17,11 @@ In order to assess forecast skill, the forecasts have to be extracted from 185 P
 
 ## Analysis
 These forecasts were compared against observed values in order to obtain a "skill score" and other statistical performance metrics. Some analysis techniques required the subjective transformation of quanitatitve data into qualitative (hit or miss). For purposes of this study, if a forecast was within 5 sfu, it was considered a hit.
+
+The period of study was chosen carefully to minimize the size of the dataset and yet still be representative of solar minimum (2020) and maximum (2023) conditions and the years in between. 
+
+*Analysis Period 2020-2023*
+![2020-2023 Study Period](https://github.com/sunnysidedenver/swpc_27day/blob/main/study%20period.png)
 
 ## Conclusions
 The forecasts suffer from a high degree of variability, with low accuracy and high false alarm. Forecast error generally increases from 2020-2023 as solar activity increased. R-squared, a statistical representation of variance, allows for rejection of Ho and acceptance of Ha: The forecasts are bad.
