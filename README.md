@@ -1,7 +1,7 @@
 # <center>27 Day F10.7 cm "Solar Flux" Forecast Performance Evaluation (2020-23)</center><br>
 
 ## Background
-The Space Weather Prediction Center produces 27-day geomagnetic (Kp and Ap) and radio (F10.7 cm) forecasts found in [Weekly Highlights and 27-day Forecast](https://www.swpc.noaa.gov/products/weekly-highlights-and-27-day-forecast). These forecasts are not archived in a database and can only be found in these PDF documents, which are [archived](ftp://ftp.swpc.noaa.gov/pub/warehouse/) by year. 
+The Space Weather Prediction Center produces 27-day geomagnetic (Kp and Ap) and radio (F10.7 cm) forecasts found in [Weekly Highlights and 27-day Forecast](https://www.swpc.noaa.gov/products/weekly-highlights-and-27-day-forecast). These forecasts are not archived in a database and can only be found in these PDF documents, which are [archived](ftp.swpc.noaa.gov/pub/warehouse/) by year. 
 
 *Example 27 Day Forecast found in a PDF file table*
 
