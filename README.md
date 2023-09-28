@@ -1,5 +1,5 @@
 # <center>27 Day F10.7 cm "Solar Flux" Forecast Performance Evaluation (2020-2023)</center><br>
-[Click here to access notebook file.](https://github.com/sunnysidedenver/swpc_27day/blob/main/27%20Day%20F10%20Forecast%20Verification%20for%202020_2023.ipynb)
+[Click here to access the full project notebook file.](https://github.com/sunnysidedenver/swpc_27day/blob/main/27%20Day%20F10%20Forecast%20Verification%20for%202020_2023.ipynb)
 
 ## Background
 The Space Weather Prediction Center produces 27-day geomagnetic (Kp and Ap) and radio (F10.7 cm) forecasts found in [Weekly Highlights and 27-day Forecast](https://www.swpc.noaa.gov/products/weekly-highlights-and-27-day-forecast). These forecasts are perishable and are not archived in any database. They can only be found in these PDF documents, which are [archived](ftp.swpc.noaa.gov/pub/warehouse/) by year. 
