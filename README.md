@@ -21,7 +21,7 @@ These forecasts were compared against observed values in order to obtain a "skil
 
 The period of study was chosen carefully to minimize the size of the dataset and yet still be representative of solar minimum (2020) and maximum (2023) conditions and the years in between. 
 
-*Analysis Period 2020-2023* 
+*Analysis Period 2020-2023*: </br> 
 This [plot](https://www.swpc.noaa.gov/products/solar-cycle-progression) shows previous and forecast solar activity. It has edited to highlight the years analyzed in this study. The y-axis shows sunspot number, an indicator of solar activity, and the x-axis show years. 2020 is generally considered to be the end of the previous SC24 and the start of SC25 with minimum activity. A sharp rise in activity is observed between 2020-23 with solar maximum forecast to occur in around 2025 as indicated by the red line. However, updated forecasts not reflected on this plot indicate [SC25 will peak in 2024](https://www.space.com/sun-solar-maximum-may-arrive-early). The gray shading indicates error bars. Note SC25 peak activity has already surpassed SC24.
 ![2020-2023 Study Period](https://github.com/sunnysidedenver/swpc_27day/blob/main/study%20period.png)
 ## Conclusions
