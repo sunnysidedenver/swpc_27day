@@ -29,7 +29,7 @@ This [plot](https://www.swpc.noaa.gov/products/solar-cycle-progression) shows pr
 ## Conclusions
 The forecasts suffer from a high degree of variability, with low accuracy and high false alarm. Forecast error generally increases from 2020-2023 as solar activity increased. R-squared, a statistical representation of variance, allows for rejection of Ho and acceptance of Ha.
 
-However, other metrics like mean absolute error, suggest the forecasts are at least fair overall.
+However, other metrics like mean absolute percentage error, suggest the forecasts are at least good or fair overall.
 
 ## Future Efforts
 ROC curves, which look at the relationship between hits and misses, should be considered as well as other hypothesis testing measures other than R-squared, like p-values.
