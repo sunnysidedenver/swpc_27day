@@ -6,7 +6,9 @@ Perfomance metrics and visualizations are outputed here.
 The Space Weather Prediction Center produces 27-day geomagnetic (Kp and Ap) and radio (F10.7 cm) forecasts found in [Weekly Highlights and 27-day Forecast](https://www.swpc.noaa.gov/products/weekly-highlights-and-27-day-forecast). These forecasts are perishable and are not archived in any database. They can only be found in these PDF documents, which are [archived](ftp.swpc.noaa.gov/pub/warehouse/) by year. 
 
 *Example 27 Day F10.7 cm Forecast Table found in a "Weekly" PDF file*
-![EXAMPLE 27 DAY FORECAST in PDF FORMAT](https://github.com/sunnysidedenver/swpc_27day/blob/main/Example%20Forecast.PNG)
+
+<img src="[EXAMPLE 27 DAY FORECAST in PDF FORMAT](https://github.com/sunnysidedenver/swpc_27day/blob/main/Example%20Forecast.PNG)" alt="Example Forecast" style="width: 200px;"/>
+
 ## Purpose
 This study will evaluate F10.7 cm forecasts from 2020-2023 in order to determine how good or bad the forecasts are. 
 
