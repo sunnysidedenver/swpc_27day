@@ -19,7 +19,7 @@ In order to test this hypothesis, the forecasts have to be extracted from 185 PD
 
 The notebook file, linked above, is best referenced to understand how the data were staged, acquired and transformed into a useable format for analysis.
 
-## Analysis
+## Analysis Period
 These forecasts were compared against observed values in order to obtain a "skill score" and other statistical performance metrics. Some analysis techniques required the subjective transformation of quanitatitve data into qualitative (hit or miss). For purposes of this study, if a forecast was within 5 sfu, it was considered a hit. Detailed analysis can be found in the linked notebook above.
 
 The period of study was chosen carefully to minimize the size of the dataset and yet still be representative of solar minimum (2020) and maximum (2023) conditions and the years in between. 
@@ -28,7 +28,7 @@ The period of study was chosen carefully to minimize the size of the dataset and
 
 This [plot](https://www.swpc.noaa.gov/products/solar-cycle-progression) shows previous and forecast solar activity. It has edited to highlight the years analyzed in this study. The y-axis shows sunspot number, an indicator of solar activity, and the x-axis show years. 2020 is generally considered to be the end of the previous SC24 and the start of SC25 with minimum activity. A sharp rise in activity is observed between 2020-23 with solar maximum forecast to occur in around 2025 as indicated by the red line. However, updated forecasts not reflected on this plot indicate [SC25 will peak in 2024](https://www.space.com/sun-solar-maximum-may-arrive-early). The gray shading indicates error bars. Note SC25 peak activity has already surpassed SC24.
 ![2020-2023 Study Period](https://github.com/sunnysidedenver/swpc_27day/blob/main/study%20period.png)
-## Conclusions
+## Findings & Conclusions
 The forecasts suffer from a high degree of variability, with low accuracy and high false alarm. Forecast error generally increases from 2020-2023 as solar activity increased. R-squared, a statistical representation of variance, allows for reasonable rejection of Ho and acceptance of Ha. However, other metrics like mean absolute percentage error, suggest the forecasts are at least good or fair overall.
 
 ![Table](https://github.com/sunnysidedenver/swpc_27day/blob/main/f10_error_table.png) 
