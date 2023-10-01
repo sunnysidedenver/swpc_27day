@@ -19,7 +19,7 @@ In order to test this hypothesis, the forecasts have to be extracted from 185 PD
 
 The notebook file, linked above, is best referenced to understand how the data were staged, acquired and transformed into a useable format for analysis.
 
-## Analysis Period
+### Analysis Period
 These forecasts were compared against observed values in order to obtain a "skill score" and other statistical performance metrics. Some analysis techniques required the subjective transformation of quanitatitve data into qualitative (hit or miss). For purposes of this study, if a forecast was within 5 sfu, it was considered a hit. Detailed analysis can be found in the linked notebook above.
 
 The period of study was chosen carefully to minimize the size of the dataset and yet still be representative of solar minimum (2020) and maximum (2023) conditions and the years in between. 
