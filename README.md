@@ -35,7 +35,7 @@ The average error was off by nearly 14 sfu with a large standard deviation (sd).
 
 ![Table](https://github.com/sunnysidedenver/swpc_27day/blob/main/f10_error_table.png) 
 
-Many really bad forecasts are seen here. Of concern are the outliers or forecasts with errors greater than 10 and the number of forecasts with errors ranging from 20-50 and the isolated forecast that is missed by 50+ sfu.
+Many really bad forecasts are seen here. Of concern are the outliers or forecasts with errors greater than 10 sfu, the number of forecasts with errors ranging from 20-50 sfu and the isolated forecasts that are missed by 50+ sfu.
 
 ![Plot2](https://github.com/sunnysidedenver/swpc_27day/blob/main/f10_errors(2).png)
 
