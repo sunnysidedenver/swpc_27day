@@ -53,5 +53,7 @@ Other tolerances for transformation of quantitative data into qualitative should
 
 Heidke skill score may also be useful. This analysis compares the forecast against the long term average, which the daily forecasts outpeform, on average. A more accurate model could be trained based on solar input parameters. The [ADAPT model](https://gong.nso.edu/adapt/sift/adapt_f10_forecast.txt) could also be evaluated, and if determiend to be more consistently accurate, it could inform the Heidke skill score, or even replace the manual forecast process all together.
 
+Finally, this project remains a work in progress. More work should be done to subset the data by years and create additional visualizations. This work will springboard the analysis of 27-day Kp forecasts, also found in the Weekly.
+
 Last updated: Sep 2023
 
