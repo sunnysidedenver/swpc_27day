@@ -7,7 +7,7 @@ The Space Weather Prediction Center produces 27-day geomagnetic (Kp and Ap) and 
 
 *Example 27 Day F10.7 cm Forecast Table found in a "Weekly" PDF file*
 
-<img src="https://github.com/sunnysidedenver/swpc_27day/blob/main/Example%20Forecast.PNG" width="600" height="700" style="margin:auto"/>
+<img src="https://github.com/sunnysidedenver/swpc_27day/blob/main/Example%20Forecast.PNG" width="600" height="700" style="display=block; margin:auto"/>
 
 ## Purpose
 This study will evaluate F10.7 cm forecasts from 2020-2023 in order to determine how good or bad the forecasts are. 
