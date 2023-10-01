@@ -38,7 +38,7 @@ The average error was off by nearly 14 sfu with a large standard deviation (sd) 
 - 95 percent of the forecasts have an error < 47 (2 sd) => 5 percent have an error > 47 (3 sd+ "outliers") </br>
 - 68 percent of the forecasts have an error < 31 (1 sd).</br>
 
-Note: Flare enhanced F10.7 values have not been removed from this table and likely reflect the largest of the forecast errors seen here. More detail can be found in the notebook file.
+Note: Flare enhanced F10.7 values have not been removed from this table and likely reflect the largest of the forecast errors seen here. Only 4 of these errors were found. More details can be found in the notebook.
 
 ![Plot2](https://github.com/sunnysidedenver/swpc_27day/blob/main/f10_errors(2).png)
 
