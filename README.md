@@ -1,4 +1,4 @@
-# <center>27 Day F10.7 cm "Solar Flux" Forecast Performance Evaluation <br>(2020-2023)</br></center>
+# <center>27 Day F10.7 cm "Solar Flux" Forecast Performance Evaluation (2020-2023)</center>
 [Click here to access the full project notebook file.](https://github.com/sunnysidedenver/swpc_27day/blob/main/27%20Day%20F10%20Forecast%20Verification%20for%202020_2023.ipynb) </br>
 Perfomance metrics and visualizations are outputed here.
 
