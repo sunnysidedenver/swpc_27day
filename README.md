@@ -49,7 +49,7 @@ ROC curves, which look at the relationship between hits and misses, should be co
 
 Other tolerances for transformation of quantitative data into qualitative should be considered as well. These tolerances may not be the same during all parts of the solar cycle.
 
-Heidke skill score may also be useful. This analysis compares the forecast against the long term average, which the daily forecasts outpeform, on average. A more accurate model could be trained based on solar input parameters. The [ADAPT model](https://gong.nso.edu/adapt/sift/adapt_f10_forecast.txt) could also be evaluated, and if determiend to be more consistently accurate, it could inform the Heidke skill score, or even replace the manual forecast process all together.
+Heidke skill score may also be useful if these forecasts can be compared against a more accurate reference model. This analysis compares the forecast against the long term average, which the daily forecasts outpeform, on average. A more accurate model could be trained based on solar input parameters and/or the [ADAPT model](https://gong.nso.edu/adapt/sift/adapt_f10_forecast.txt) could also be evaluated, and if determiend to be more consistently accurate, it could serve as a reference for skill score calculation. If it is significantly better ADAPT could even replace the manual forecast process all together.
 
 Finally, this project remains a work in progress. More work should be done to subset the data by years and create additional visualizations. This work will springboard the analysis of 27-day Kp forecasts, also found in the Weekly.
 
