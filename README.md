@@ -35,6 +35,8 @@ The forecasts suffer from a high degree of variability, with low accuracy and hi
 
 The average error was off by nearly 14 sfu with a large standard deviation (sd) of 17 sfu. When you move just 1 sd away from the mean, representing 68% of forecasts, the error jumps another 17 sfu. There is also a tendency to underforecast. </br>
 
+The data are skewed left slightly given the number of outliers, but assuming a normal distribution, one can reasoably assume the following:
+
 - 95 percent of the forecasts have an error < 47 (2 sd) => 5 percent, or about 250 forecasts, have an error > 47 (3 sd+ "outliers") </br>
 - 68 percent of the forecasts have an error < 31 (1 sd).</br>
 
