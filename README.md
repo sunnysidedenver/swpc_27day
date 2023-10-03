@@ -35,7 +35,7 @@ The forecasts suffer from a high degree of variability, with low accuracy and hi
 
 The average error was off by nearly 14 sfu with a large standard deviation (sd) of 17 sfu. When you move just 1 sd away from the mean, representing 68% of forecasts, the error jumps another 17 sfu. There is also a tendency to underforecast. </br>
 
-The data are normally distributed about the mean, meaning one can assess the following:
+Forecast errors are normally distributed, meaning one can assess the following:
 
 - 95 percent (2 sd) of the forecasts have an error < 47 => 5 percent, or about 250 forecasts, have an error > 47 (3 sd+ "outliers") </br>
 - 68 percent (1 sd) of the forecasts have an error < 31 </br>
