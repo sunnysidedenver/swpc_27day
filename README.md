@@ -17,7 +17,7 @@ Null: The forecasts are skillful and become more accurate with increased solar a
 Alternate: The forecasts are not skillful and become less accurate with increased solar activity.
 
 ## Data
-In order to test this hypothesis, the forecasts have to be extracted from 185 PDF "Weekly" files into a readable format. This Python program will extract the forecasts from these files (found on pages 4, 5, 6 or 7) then convert them into text files. The text files will then be read into Pandas dataframes for additional analysis. [Observed F10.7 cm flux data](ftp.seismo.nrcan.gc.ca/spaceweather/solar_flux/daily_flux_values/fluxtable.txt) were collected from the Government of Canada. 
+In order to test this hypothesis, the forecasts have to be extracted from 185 PDF "Weekly" files into a readable format. This Python program will extract the forecasts from these files (found on pages 4, 5, 6 or 7) then convert them into text files. The text files will then be read into Pandas dataframes for additional analysis with almost 5000 daily forecasts corresponding to observations. [Observed F10.7 cm flux data](ftp.seismo.nrcan.gc.ca/spaceweather/solar_flux/daily_flux_values/fluxtable.txt) were collected from the Government of Canada. 
 
 The notebook file, linked above, is best referenced to understand how the data were staged, acquired and transformed into a useable format for analysis.
 
