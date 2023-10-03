@@ -46,7 +46,7 @@ Forecast errors are normally distributed, meaning one can assess the following:
 
 Note: Flare enhanced F10.7 values have not been removed from this table and likely reflect the largest of the forecast errors seen here. Only 4 of these errors were found. More details can be found in the notebook.
 
-![Plot2](https://github.com/sunnysidedenver/swpc_27day/blob/main/err_hist.PNG)
+![Plot2](https://github.com/sunnysidedenver/swpc_27day/blob/main/err_hist.PNG) 
 
 Overall, error increases with time with increased solar activity and time.
 
