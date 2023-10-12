@@ -48,7 +48,7 @@ Note: Flare enhanced F10.7 values have not been removed from this table and like
 
 ![Plot2](https://github.com/sunnysidedenver/swpc_27day/blob/main/err_hist.PNG) 
 
-Overall, error increases with time with increased solar activity and time.
+Overall, error increases with time and increased solar activity.
 
 ![Plot1](https://github.com/sunnysidedenver/swpc_27day/blob/main/f10_errors(1).png)
 
