@@ -53,9 +53,11 @@ Overall, error increases with time and increased solar activity.
 ![Plot1](https://github.com/sunnysidedenver/swpc_27day/blob/main/f10_errors(1).png)
 
 ## Future Efforts
+Additional analysis would be helpful to understand at what day in the 27 day forecast do forecasts go bad, grouped by year. 
+
 ROC curves, which look at the relationship between hits and misses, should be considered as well as other hypothesis testing measures other than R-squared, like p-values.
 
-Other tolerances for transformation of quantitative data into qualitative should be considered as well. These tolerances may not be the same during all parts of the solar cycle.
+Other tolerances for transformation of quantitative data into qualitative should be considered. These tolerances may not be the same during all parts of the solar cycle.
 
 Heidke skill score may also be useful if these forecasts can be compared against a more accurate reference model. This analysis compares the forecast against the long term average, which the daily forecasts outpeform, on average. A more accurate model could be trained based on solar input parameters and/or the [ADAPT model](https://gong.nso.edu/adapt/sift/adapt_f10_forecast.txt) could also be evaluated, and if determiend to be more consistently accurate, it could serve as a reference for skill score calculation. If it is significantly better ADAPT could even replace the manual forecast process all together.
 
