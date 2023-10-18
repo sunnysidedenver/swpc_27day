@@ -3,7 +3,7 @@
 Perfomance metrics and visualizations are outputed here.
 
 ## Background
-The Space Weather Prediction Center produces 27-day geomagnetic (Kp and Ap) and radio (F10.7 cm) forecasts found in [Weekly Highlights and 27-day Forecast](https://www.swpc.noaa.gov/products/weekly-highlights-and-27-day-forecast). These forecasts are perishable and are not archived in any database. They can only be found in these PDF documents, which are [archived](ftp.swpc.noaa.gov/pub/warehouse/) by year. 
+The Space Weather Prediction Center produces 27-day geomagnetic (Kp and Ap) and radio (F10.7 cm) forecasts found in [Weekly Highlights and 27-day Forecast](https://www.swpc.noaa.gov/products/weekly-highlights-and-27-day-forecast). These forecasts are perishable and are not archived in any database. They can only be found in PDF documents, which are [archived](ftp.swpc.noaa.gov/pub/warehouse/) by year. 
 
 *Example 27 Day F10.7 cm Forecast Table found in a "Weekly" PDF file*
 
