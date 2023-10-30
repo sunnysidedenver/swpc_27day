@@ -48,6 +48,10 @@ Note: Flare enhanced F10.7 values have not been removed from this table and like
 
 ![Plot2](https://github.com/sunnysidedenver/swpc_27day/blob/main/err_hist.PNG) 
 
+Errors can also be evaluated for each day of the forecast. Note errors are already 12 sfu on day 1, increasing to 16 sfu by day 5, before decreasing to around 13 sfu. They increase back up to 15 sfu by the end of the forecast period.
+
+![Plot4](https://github.com/sunnysidedenver/swpc_27day/blob/main/dailyf10_errors.PNG)
+
 Overall, error increases with time and increased solar activity.
 
 ![Plot1](https://github.com/sunnysidedenver/swpc_27day/blob/main/f10_errors(1).png)
