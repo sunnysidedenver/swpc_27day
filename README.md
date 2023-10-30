@@ -57,7 +57,7 @@ Overall, error increases with time and increased solar activity.
 ![Plot1](https://github.com/sunnysidedenver/swpc_27day/blob/main/f10_errors(1).png)
 
 ## Future Efforts
-Additional analysis would be helpful to understand at what day in the 27 day forecast do forecasts go bad, grouped by year. 
+Daily condfidence intervals should be calculated.
 
 ROC curves, which look at the relationship between hits and misses, should be considered as well as other hypothesis testing measures other than R-squared, like p-values.
 
@@ -67,5 +67,9 @@ Heidke skill score may also be useful if these forecasts can be compared against
 
 Finally, this project remains a work in progress. More work should be done to subset the data by years and create additional visualizations. This work will springboard the analysis of 27-day Kp forecasts, also found in the Weekly.
 
-Last updated: Sep 2023
+## Recommendations
+
+Recommendations were made to provide a range of daily forecast values based on confidence intervals rather than attempting to forecast discrete values that are subject to large errors.
+
+Last updated: Oct 2023
 
