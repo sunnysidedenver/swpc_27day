@@ -44,8 +44,6 @@ Forecast errors are normally distributed, meaning one can assess the following:
 - 95 percent (2 sd) of the forecasts have an error < 47 => 5 percent, or about 250 forecasts, have an error > 47 (3 sd+ "outliers") </br>
 - 68 percent (1 sd) of the forecasts have an error < 31 </br>
 
-Note: Flare enhanced F10.7 values have not been removed from this table and likely reflect the largest of the forecast errors seen here. Only 4 of these errors were found. More details can be found in the notebook.
-
 ![Plot2](https://github.com/sunnysidedenver/swpc_27day/blob/main/err_hist.PNG) 
 
 Errors can also be evaluated for each day of the forecast. Note errors are already 12 sfu on day 1, increasing to 16 sfu by day 5, before decreasing to around 13 sfu. They increase back up to 15 sfu by the end of the forecast period.
